@@ -2368,6 +2368,9 @@ namespace RaysHotDogs.Andriod
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
 			
+			// aapt resource value: 0x7F010009
+			public const int amountEditText = 2130771977;
+			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
 			
@@ -2380,11 +2383,11 @@ namespace RaysHotDogs.Andriod
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
-			// aapt resource value: 0x7F010002
-			public const int button1 = 2130771970;
-			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
+			
+			// aapt resource value: 0x7F010008
+			public const int cancelButton = 2130771976;
 			
 			// aapt resource value: 0x7F0C001C
 			public const int cancel_action = 2131492892;
@@ -2418,6 +2421,9 @@ namespace RaysHotDogs.Andriod
 			
 			// aapt resource value: 0x7F0C0026
 			public const int default_activity_button = 2131492902;
+			
+			// aapt resource value: 0x7F010006
+			public const int descriptionTextView = 2130771974;
 			
 			// aapt resource value: 0x7F0C0027
 			public const int design_bottom_sheet = 2131492903;
@@ -2464,6 +2470,27 @@ namespace RaysHotDogs.Andriod
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
 			
+			// aapt resource value: 0x7F010003
+			public const int hotDogDetailImage = 2130771971;
+			
+			// aapt resource value: 0x7F010013
+			public const int hotDogImageView = 2130771987;
+			
+			// aapt resource value: 0x7F010011
+			public const int hotDogListView = 2130771985;
+			
+			// aapt resource value: 0x7F010004
+			public const int hotDogNameText = 2130771972;
+			
+			// aapt resource value: 0x7F010014
+			public const int hotDogNameTextView = 2130771988;
+			
+			// aapt resource value: 0x7F010016
+			public const int hotDogPriceTextView = 2130771990;
+			
+			// aapt resource value: 0x7F010015
+			public const int hotDogShortDescriptionTextView = 2130771989;
+			
 			// aapt resource value: 0x7F0C000A
 			public const int icon = 2131492874;
 			
@@ -2494,11 +2521,17 @@ namespace RaysHotDogs.Andriod
 			// aapt resource value: 0x7F0C000F
 			public const int line3 = 2131492879;
 			
+			// aapt resource value: 0x7F010012
+			public const int LinearLayout = 2130771986;
+			
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
 			
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
+			
+			// aapt resource value: 0x7F010002
+			public const int mainScrollView = 2130771970;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -2533,6 +2566,9 @@ namespace RaysHotDogs.Andriod
 			// aapt resource value: 0x7F0C0013
 			public const int notification_main_column_container = 2131492883;
 			
+			// aapt resource value: 0x7F010010
+			public const int orderButton = 2130771984;
+			
 			// aapt resource value: 0x7F0C004D
 			public const int parallax = 2131492941;
 			
@@ -2544,6 +2580,9 @@ namespace RaysHotDogs.Andriod
 			
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
+			
+			// aapt resource value: 0x7F010007
+			public const int priceTextView = 2130771975;
 			
 			// aapt resource value: 0x7F0C0051
 			public const int progress_circular = 2131492945;
@@ -2622,6 +2661,9 @@ namespace RaysHotDogs.Andriod
 			
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
+			
+			// aapt resource value: 0x7F010005
+			public const int shortDescriptionTextView = 2130771973;
 			
 			// aapt resource value: 0x7F0C006B
 			public const int smallLabel = 2131492971;
@@ -2871,8 +2913,8 @@ namespace RaysHotDogs.Andriod
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
-			// aapt resource value: 0x7F020002
-			public const int activity_main = 2130837506;
+			// aapt resource value: 0x7F020004
+			public const int activity_main = 2130837508;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
@@ -2915,6 +2957,15 @@ namespace RaysHotDogs.Andriod
 			
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
+			
+			// aapt resource value: 0x7F020002
+			public const int HotDogDetailView = 2130837506;
+			
+			// aapt resource value: 0x7F020003
+			public const int HotDogMenuView = 2130837507;
+			
+			// aapt resource value: 0x7F020005
+			public const int hotdog_row_view = 2130837509;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;

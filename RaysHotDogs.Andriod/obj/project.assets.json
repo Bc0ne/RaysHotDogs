@@ -246,6 +246,15 @@
         "build": {
           "build/MonoAndroid81/Xamarin.Android.Support.Vector.Drawable.targets": {}
         }
+      },
+      "RaysHotDogs.Core/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/RaysHotDogs.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RaysHotDogs.Core.dll": {}
+        }
       }
     }
   },
@@ -437,41 +446,47 @@
         "xamarin.android.support.vector.drawable.27.0.2.nupkg.sha512",
         "xamarin.android.support.vector.drawable.nuspec"
       ]
+    },
+    "RaysHotDogs.Core/1.0.0": {
+      "type": "project",
+      "path": "../RaysHotDogs.Core/RaysHotDogs.Core.csproj",
+      "msbuildProject": "../RaysHotDogs.Core/RaysHotDogs.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "RaysHotDogs.Core >= 1.0.0",
       "Xamarin.Android.Support.Design >= 27.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MR-Robot\\.nuget\\packages\\": {}
+    "/Users/mahmoud/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\mr-robot\\source\\repos\\RaysHotDogs\\RaysHotDogs.Andriod\\RaysHotDogs.Andriod.csproj",
+      "projectUniqueName": "/Users/mahmoud/RaysHotDogs/RaysHotDogs.Andriod/RaysHotDogs.Andriod.csproj",
       "projectName": "RaysHotDogs.Andriod",
-      "projectPath": "c:\\users\\mr-robot\\source\\repos\\RaysHotDogs\\RaysHotDogs.Andriod\\RaysHotDogs.Andriod.csproj",
-      "packagesPath": "C:\\Users\\MR-Robot\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\mr-robot\\source\\repos\\RaysHotDogs\\RaysHotDogs.Andriod\\obj\\",
+      "projectPath": "/Users/mahmoud/RaysHotDogs/RaysHotDogs.Andriod/RaysHotDogs.Andriod.csproj",
+      "packagesPath": "/Users/mahmoud/.nuget/packages/",
+      "outputPath": "/Users/mahmoud/RaysHotDogs/RaysHotDogs.Andriod/obj",
       "projectStyle": "PackageReference",
-      "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\MR-Robot\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/mahmoud/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/lavaloon/auth/16d687d2-12f6-4f32-bd07-ee1f5b16ffa1/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/mahmoud/RaysHotDogs/RaysHotDogs.Core/RaysHotDogs.Core.csproj": {
+              "projectPath": "/Users/mahmoud/RaysHotDogs/RaysHotDogs.Core/RaysHotDogs.Core.csproj"
+            }
+          }
         }
       }
     },
@@ -480,7 +495,7 @@
         "dependencies": {
           "Xamarin.Android.Support.Design": {
             "target": "Package",
-            "version": "[27.0.2, )"
+            "version": "27.0.2"
           }
         }
       }

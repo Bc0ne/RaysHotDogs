@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{6594B9A0-0904-4538-A161-7FA41F65DD60}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="RaysHotDogs.Andriod/Adapters/HotDogListAdapter.cs" Line="55" Column="94" />
+      <File FileName="RaysHotDogs.Andriod/Utility/ImageHelper.cs" Line="15" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>url</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.RaysHotDogs.Andriod AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.12eecc79" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

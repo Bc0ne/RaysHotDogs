@@ -73,5 +73,10 @@ namespace RaysHotDogs.Core.Model
             get;
             set;
         }
+
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }

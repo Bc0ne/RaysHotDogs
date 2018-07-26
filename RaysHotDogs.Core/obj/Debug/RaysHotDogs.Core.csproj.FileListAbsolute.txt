@@ -1,0 +1,6 @@
+/Users/mahmoud/RaysHotDogs/RaysHotDogs.Core/bin/Debug/RaysHotDogs.Core.dll
+/Users/mahmoud/RaysHotDogs/RaysHotDogs.Core/bin/Debug/RaysHotDogs.Core.pdb
+/Users/mahmoud/RaysHotDogs/RaysHotDogs.Core/obj/Debug/RaysHotDogs.Core.csproj.CoreCompileInputs.cache
+/Users/mahmoud/RaysHotDogs/RaysHotDogs.Core/obj/Debug/RaysHotDogs.Core.dll
+/Users/mahmoud/RaysHotDogs/RaysHotDogs.Core/obj/Debug/RaysHotDogs.Core.pdb
+/Users/mahmoud/RaysHotDogs/RaysHotDogs.Core/obj/Debug/RaysHotDogs.Core.csprojResolveAssemblyReference.cache
