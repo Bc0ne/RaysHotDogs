@@ -104,6 +104,9 @@ c:/users/mr-robot/source/repos/RaysHotDogs/RaysHotDogs.Andriod/obj/Debug/android
 /Users/mahmoud/RaysHotDogs/RaysHotDogs.Andriod/obj/Debug/uploadflags.txt
 /Users/mahmoud/RaysHotDogs/RaysHotDogs.Andriod/obj/Debug/RaysHotDogs.Andriod.csprojResolveAssemblyReference.cache
 /Users/mahmoud/RaysHotDogs/RaysHotDogs.Andriod/obj/Debug/res/layout/hotdog_row_view.xml
+/Users/mahmoud/RaysHotDogs/RaysHotDogs.Andriod/obj/Debug/res/drawable/raylogo.png
+/Users/mahmoud/RaysHotDogs/RaysHotDogs.Andriod/obj/Debug/res/layout/mainmenu.xml
+/Users/mahmoud/RaysHotDogs/RaysHotDogs.Andriod/obj/Debug/res/layout/aboutview.xml
 /Users/mahmoud/RaysHotDogs/RaysHotDogs.Andriod/obj/Debug/linksrc/RaysHotDogs.Andriod.pdb
 /Users/mahmoud/RaysHotDogs/RaysHotDogs.Andriod/obj/Debug/linksrc/Mono.Android.pdb
 /Users/mahmoud/RaysHotDogs/RaysHotDogs.Andriod/obj/Debug/linksrc/RaysHotDogs.Core.pdb

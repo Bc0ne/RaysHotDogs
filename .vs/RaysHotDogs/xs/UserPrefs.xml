@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{6594B9A0-0904-4538-A161-7FA41F65DD60}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs.Andriod/Fragments/MeatLoversFragment.cs">
     <Files>
-      <File FileName="RaysHotDogs.Andriod/Adapters/HotDogListAdapter.cs" Line="55" Column="94" />
-      <File FileName="RaysHotDogs.Andriod/Utility/ImageHelper.cs" Line="15" Column="1" />
+      <File FileName="RaysHotDogs.Andriod/Fragments/BaseFragment.cs" Line="31" Column="27" />
+      <File FileName="RaysHotDogs.Andriod/HotDogMenuActivity.cs" Line="57" Column="13" />
+      <File FileName="RaysHotDogs.Andriod/Fragments/FavouriteHotDogFragment.cs" Line="44" Column="13" />
+      <File FileName="RaysHotDogs.Andriod/Fragments/MeatLoversFragment.cs" Line="27" Column="61" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -13,7 +15,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.RaysHotDogs.Andriod AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.12eecc79" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
+  <MonoDevelop.Ide.ItemProperties.RaysHotDogs.Andriod AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_5X_API_26" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

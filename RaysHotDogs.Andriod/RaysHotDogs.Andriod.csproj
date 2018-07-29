@@ -62,6 +62,11 @@
     <Compile Include="Utility\ImageHelper.cs" />
     <Compile Include="HotDogMenuActivity.cs" />
     <Compile Include="Adapters\HotDogListAdapter.cs" />
+    <Compile Include="MenuActivity.cs" />
+    <Compile Include="AboutActivity.cs" />
+    <Compile Include="Fragments\BaseFragment.cs" />
+    <Compile Include="Fragments\FavouriteHotDogFragment.cs" />
+    <Compile Include="Fragments\MeatLoversFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -96,6 +101,10 @@
     <AndroidResource Include="Resources\layout\HotDogDetailView.axml" />
     <AndroidResource Include="Resources\layout\HotDogMenuView.axml" />
     <AndroidResource Include="Resources\layout\hotdog_row_view.axml" />
+    <AndroidResource Include="Resources\drawable\RayLogo.png" />
+    <AndroidResource Include="Resources\layout\MainMenu.axml" />
+    <AndroidResource Include="Resources\layout\AboutView.axml" />
+    <AndroidResource Include="Resources\layout\FavouriteHotDogFragment.axml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2" />
@@ -109,6 +118,8 @@
   <ItemGroup>
     <Folder Include="Utility\" />
     <Folder Include="Adapters\" />
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Fragments\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,38 @@
+﻿
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+using Android.App;
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Util;
+using Android.Views;
+using Android.Widget;
+using RaysHotDogs.Andriod.Adapters;
+
+namespace RaysHotDogs.Andriod.Fragments
+{
+    public class MeatLoversFragment : BaseFragment
+    {
+        public override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+
+            FindViews();
+            HandleEvents();
+
+            hotDogs = hotDogdataService.GetHotDogsForGroup(1);
+            listView.Adapter = new HotDogListAdapter(hotDogs);
+        }
+
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        {
+            return inflater.Inflate(Resource.Layout.FavouriteHotDogFragment, container, false);
+
+
+        }
+    }
+}
