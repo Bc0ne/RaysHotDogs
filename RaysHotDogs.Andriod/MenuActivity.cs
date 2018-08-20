@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -13,10 +12,9 @@ using Android.Widget;
 
 namespace RaysHotDogs.Andriod
 {
-    [Activity(Label = "MenuActivity",MainLauncher =true)]
+    [Activity(Label = "@string/app_name",MainLauncher =true, Icon ="@drawable/smallicon")]
     public class MenuActivity : Activity
     {
-
         private Button orderButton;
         private Button cartButton;
         private Button aboutButton;
@@ -45,6 +43,28 @@ namespace RaysHotDogs.Andriod
         private void HandleEvents(){
             orderButton.Click += OrderButton_Click;
             aboutButton.Click += AboutButton_Click;
+            takePictureButton.Click += TakePictureButton_Click;
+            mapButton.Click += MapButton_Click;
+            cartButton.Click += CartButton_Click;
+        }
+
+        private void CartButton_Click(object sender, EventArgs e)
+        {
+            var intent = new Intent(this, typeof(HotDogMenuActivity));
+            StartActivity(intent);
+        }
+
+        private void MapButton_Click(object sender, EventArgs e)
+        {
+            Intent intent = new Intent(this, typeof(RayMapActivity));
+            StartActivity(intent);
+        }
+
+        private void TakePictureButton_Click(object sender, EventArgs e)
+        {
+            Intent intent = new Intent(this, typeof(TakePictureActivity));
+
+            StartActivity(intent);
         }
 
         private void AboutButton_Click(object sender, EventArgs e)

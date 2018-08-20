@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ListView
-        android:minWidth="25pd"
-        android:minHeight="25pd"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@@+id/hotDogListView" />
+        android:id="@+id/hotDogListView" />
 </LinearLayout>

@@ -21,16 +21,22 @@ namespace RaysHotDogs.Andriod.Fragments
         {
             base.OnCreate(savedInstanceState);
 
+        }
+
+        public override void OnActivityCreated(Bundle savedInstanceState)
+        {
+            base.OnActivityCreated(savedInstanceState);
+
             FindViews();
             HandleEvents();
 
             hotDogs = hotDogdataService.GetHotDogsForGroup(1);
             listView.Adapter = new HotDogListAdapter(hotDogs);
-        }
 
+        }
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            return inflater.Inflate(Resource.Layout.FavouriteHotDogFragment, container, false);
+            return inflater.Inflate(Resource.Layout.MeatLoversFragment, container, false);
 
 
         }

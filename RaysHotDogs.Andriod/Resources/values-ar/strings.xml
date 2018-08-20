@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">راى هوت دوجز</string>
+  <string name="action_settings">الاعدات</string>
+  
+  <string name="orderButtonText">إطلب هوت دوجز</string>
+  <string name="cartButtonText">عربة التسوق</string>
+  <string name="pictureButtonText">التقط صورة مع راى</string>
+  <string name="mapButtonText">إذهب إلى مطعم راى</string>
+  <string name="aboutButtonText">عن راى هوت دوجز</string>
+</resources>

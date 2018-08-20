@@ -1,12 +1,10 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Android.OS;
 using Android.App;
 using Android.Content;
-
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
@@ -16,7 +14,7 @@ using RaysHotDogs.Andriod.Utility;
 
 namespace RaysHotDogs.Andriod
 {
-    [Activity(Label = "HotDogDetailActivity")]
+    [Activity(Label = "Details",Icon ="@drawable/smallicon")]
     public class HotDogDetailActivity : Activity
     {
         private ImageView hotDogImageView;
@@ -37,7 +35,7 @@ namespace RaysHotDogs.Andriod
 
             SetContentView(Resource.Layout.HotDogDetailView);
             // Create your application here
-
+            
             dataService = new HotDogDataService();
             selectedHotDog = dataService.GetHotDogById(1);
 
@@ -60,10 +58,7 @@ namespace RaysHotDogs.Andriod
             amountEditText = FindViewById<EditText>(Resource.Id.amountEditText);
             cancelButton = FindViewById<Button>(Resource.Id.cancelButton);
             orderButton = FindViewById<Button>(Resource.Id.orderButton);
-
         }
-
-
 
         private void BindData()
         {

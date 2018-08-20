@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">RaysHotDogs</string>
-    <string name="action_settings">Settings</string>
+  <string name="app_name">Ray\'s HotDogs</string>
+  <string name="action_settings">Settings</string>
+  
+  <string name="orderButtonText">ORDER HOT DOGS</string>
+  <string name="cartButtonText">VIEW YOUR CART</string>
+  <string name="pictureButtonText">TAKE A PICTURE WITH RAY</string>
+  <string name="mapButtonText">Go to Ray Store</string>
+  <string name="aboutButtonText">ABOUT RAY\'S HOT DOGS</string>
 </resources>

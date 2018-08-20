@@ -1,7 +1,9 @@
-﻿using RaysHotDogs.Core.Model;
+﻿using Newtonsoft.Json;
+using RaysHotDogs.Core.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -102,6 +104,41 @@ namespace RaysHotDogs.Core.Repository
                 }
             }
         };
+
+        // string url =
+        //"http://gillcleerenpluralsight.blob.core.windows.net/files/hotdogs.json";
+
+        // public HotDogRepository()
+        // {
+        //     Task.Run(()=> this.LoadDataAsync(url)).Wait();
+        // }
+        // private static List<HotDogGroup> hotDogGroups = new List<HotDogGroup>();
+
+        // private async Task LoadDataAsync(string uri)
+        // {
+        //     if (hotDogGroups != null)
+        //     {
+        //         string responseJsonString = null;
+
+        //         using (var httpClient = new HttpClient())
+        //         {
+        //             try
+        //             {
+        //                 Task<HttpResponseMessage> getResponse = httpClient.GetAsync(uri);
+
+        //                 HttpResponseMessage response = await getResponse;
+
+        //                 responseJsonString = await response.Content.ReadAsStringAsync();
+        //                 hotDogGroups = JsonConvert.DeserializeObject<List<HotDogGroup>>(responseJsonString);
+        //             }
+        //             catch (Exception ex)
+        //             {
+        //                 //handle any errors here, not part of the sample app
+        //                 string message = ex.Message;
+        //             }
+        //         }
+        //     }
+        // }
 
         public List<HotDog> GetAllHotDogs()
         {

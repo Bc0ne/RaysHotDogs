@@ -1,9 +1,7 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -13,10 +11,9 @@ using Android.Widget;
 
 namespace RaysHotDogs.Andriod
 {
-    [Activity(Label = "AboutActivity")]
+    [Activity(Label = "About Ray",Icon ="@drawable/smallicon")]
     public class AboutActivity : Activity
     {
-
         private TextView phoneNumberTextView;
         protected override void OnCreate(Bundle savedInstanceState)
         {

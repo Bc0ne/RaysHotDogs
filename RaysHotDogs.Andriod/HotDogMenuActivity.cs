@@ -11,6 +11,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using RaysHotDogs.Andriod.Adapters;
+using RaysHotDogs.Andriod.Fragments;
 using RaysHotDogs.Core.Model;
 using RaysHotDogs.Core.Service;
 
@@ -18,7 +19,7 @@ namespace RaysHotDogs.Andriod
 {
 
     //Master    
-    [Activity(Label = "HotDogMenuActivity")]
+    [Activity(Label = "Hot Dogs Menu",Icon ="@drawable/smallicon")]
     public class HotDogMenuActivity : Activity
     {
 
@@ -35,22 +36,51 @@ namespace RaysHotDogs.Andriod
             // Create your application here
 
             SetContentView(Resource.Layout.HotDogMenuView);
-            hotDogListView = FindViewById<ListView>(Resource.Id.hotDogListView);
 
-            hotDogDataService = new HotDogDataService();
-            allHotDogs = hotDogDataService.GetAllHotDogs();
+            ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
+            AddTab("Favourites", Resource.Drawable.FavoritesIcon, new FavouriteHotDogFragment());
+            AddTab("Meat Lovers", Resource.Drawable.MeatLoversIcon, new MeatLoversFragment());
+            AddTab("Veggie Lovers", Resource.Drawable.VeggieLoversIcon, new VeggieLoversFragment());
+            
+            
+            //hotDogListView = FindViewById<ListView>(Resource.Id.hotDogListView);
 
-            hotDogListView.Adapter = new HotDogListAdapter(allHotDogs);
+            //hotDogDataService = new HotDogDataService();
+            //allHotDogs = hotDogDataService.GetAllHotDogs();
 
-            hotDogListView.FastScrollEnabled = true;
+            //hotDogListView.Adapter = new HotDogListAdapter(allHotDogs);
 
-            hotDogListView.ItemClick += HotDogListView_ItemClick;
+            //hotDogListView.FastScrollEnabled = true;
 
-           
-
-
+            //hotDogListView.ItemClick += HotDogListView_ItemClick;
 
         }
+
+        private void AddTab(string tabText, int iconResourceId, Fragment view)
+        {
+            var tab = this.ActionBar.NewTab();
+            tab.SetText(tabText);
+            tab.SetIcon(iconResourceId);
+
+            tab.TabSelected += (Object sender, ActionBar.TabEventArgs e) =>
+            {
+                var fragment = this.FragmentManager.FindFragmentById(Resource.Id.fragmentContainer);
+                //if (fragment != null)
+                //{
+                //    e.FragmentTransaction.Remove(fragment);
+                //}
+                e.FragmentTransaction.Replace(Resource.Id.fragmentContainer, view);
+            };
+
+            //tab.TabUnselected += (Object sender, ActionBar.TabEventArgs e) =>
+            //{
+            //    e.FragmentTransaction.Remove(view);
+            //};
+            this.ActionBar.AddTab(tab);
+
+        }
+
+       
 
         private void HotDogListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {

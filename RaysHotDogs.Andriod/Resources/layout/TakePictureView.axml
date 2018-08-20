@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Take a Picture with Ray!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textureView1"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <ImageView
+        android:id="@+id/rayPictureImageView"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:id="@+id/takePictureButton"
+        android:text="Launch the Camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

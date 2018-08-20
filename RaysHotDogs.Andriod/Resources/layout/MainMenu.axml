@@ -9,27 +9,27 @@
         android:layout_width="match_parent"
         android:layout_height="200dp" />
     <Button
-        android:text="ORDER HOT DOGS!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/orderButton" />
+        android:id="@+id/orderButton"
+        android:text="@string/orderButtonText" />
     <Button
-        android:text="VIEW YOUR CART"
+        android:text="@string/cartButtonText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/cartButton" />
     <Button
-        android:text="TAKE A PICTURE WITH RAY"
+        android:text="@string/pictureButtonText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/pictureButton" />
     <Button
-        android:text="GO TO RAY'S STORE"
+        android:text="@string/mapButtonText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/mapButton" />
     <Button
-        android:text="ABOUT RAY'S HOT DOGS"
+        android:text="@string/aboutButtonText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/aboutButton" />

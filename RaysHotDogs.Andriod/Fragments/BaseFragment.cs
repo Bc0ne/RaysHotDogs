@@ -39,10 +39,10 @@ namespace RaysHotDogs.Andriod.Fragments
 
         private void ListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-            var hotDog = allHotDogs[e.Position];
+            var hotDog = hotDogs[e.Position];
 
             var intent = new Intent();
-            intent.SetClass(this, typeof(HotDogDetailActivity));
+            intent.SetClass(this.Activity, typeof(HotDogDetailActivity));
             intent.PutExtra("selectedHotDogId", hotDog.HotDogId);
 
             StartActivityForResult(intent, 100);
